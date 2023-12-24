@@ -47,8 +47,13 @@ height: 50px;
     white-space: nowrap;
     overflow: hidden;
     height: 400px;
+    flex-flow: column;
 }
 .underheader {
+    display: flex;
+    justify-content: left;
+    flex: 1 1 auto;
+    
 
 
 
@@ -57,5 +62,5 @@ height: 50px;
 #headerimage{
 
 
-    
+
 }

@@ -1,4 +1,11 @@
 .flexcontainer{display:flex;
+color: aliceblue;
+
+}
+
+.headbox{display: flex;
+    flex-flow: row;
+    flex: 1 2 auto
 
 
 }

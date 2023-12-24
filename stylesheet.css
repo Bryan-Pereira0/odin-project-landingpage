@@ -13,7 +13,7 @@ flex-basis: 100%;
 white-space: nowrap;
 overflow: hidden;
 height: 50px;
-
+flex-flow: row;
 
 
 
@@ -23,7 +23,7 @@ height: 50px;
     display: flex;
     align-items: center; 
     justify-content: center;  
-    flex-flow: row;
+    
     flex: 1 0 auto;
     padding: 3px;
     

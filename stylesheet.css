@@ -1,12 +1,61 @@
-.flexcontainer {display:flex;
-background: rgb(67, 133, 190);
-align-items: center;
-flex-flow: row;
+*{margin: 0;
+    padding:0;
+
+
+
+}
+.flexcontainer {
+display:flex;
+background: #1F2937;
+font-family: 'Libre Baskerville', serif;
+color: white;
+flex-basis: 100%;
+white-space: nowrap;
+overflow: hidden;
+height: 50px;
+
+
+
 
 }
 
-.headbox {display: flex;
+.headbox {
+    display: flex;
+    align-items: center; 
+    justify-content: center;  
+    flex-flow: row;
+    flex: 1 0 auto;
+    padding: 3px;
+    
+
+}
+#logo{
+    flex: 3 1 auto;
+    padding: 10px;
+    align-self: center;
+    padding-left: 15px;
     
 
 
+}
+.flexcontainer2 {
+    display: flex;
+    background: #1F2937;
+    font-family: 'Libre Baskerville', serif;
+    color: white;
+    flex-basis: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    height: 400px;
+}
+.underheader {
+
+
+
+
+}
+#headerimage{
+
+
+    
 }

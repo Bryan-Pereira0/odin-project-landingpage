@@ -1,11 +1,12 @@
-.flexcontainer{display:flex;
-color: aliceblue;
+.flexcontainer {display:flex;
+background: rgb(67, 133, 190);
+align-items: center;
+flex-flow: row;
 
 }
 
-.headbox{display: flex;
-    flex-flow: row;
-    flex: 1 2 auto
+.headbox {display: flex;
+    
 
 
 }
